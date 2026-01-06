@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# But track Python and Jupyter notebooks
+!*.py
+!*.ipynb
+
+# Track gitignore itself
+!.gitignore
+
+# Still ignore checkpoints and cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore the data folders explicitly
+object_images_CC0/
+janna_wm_dg/
+new_scores/
+data/
+stimuli/
+new_stimuli/
+ana/
